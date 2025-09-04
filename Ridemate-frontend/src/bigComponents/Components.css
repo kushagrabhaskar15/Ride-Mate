@@ -7,3 +7,47 @@ Form{
     padding :2rem;
     box-shadow: 2px 2px 6px rgb(114, 114, 114);
 }
+
+.btnFind{
+  background-color: #FF6B00;
+  color: white;
+  border: none;
+  transition: 0.25s ease-in-out all;
+}
+
+
+.btnFind:hover {
+  background-color: #e65a00;
+  transform: translateY(-4%);
+}
+
+.btnOffer{
+  background-color: #00C2A0;
+  color: white;
+  border: none;
+  transition: 0.25s ease-in-out all;
+}
+
+.btnOffer:hover{
+  background-color: #00aa88;
+  transform: translateY(-4%);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.hero-section1-btns{
+    justify-content: center;
+    width: 80%;
+    gap: 3rem;
+}
+
+.hero-section1{
+    margin:1.5rem;
+    padding:2.5rem;
+    border:1px solid rgb(82, 82, 82); 
+    border-radius:20px;
+    box-shadow: 2px 2px 6px rgb(141, 135, 135);
+    background-color: white;
+}
