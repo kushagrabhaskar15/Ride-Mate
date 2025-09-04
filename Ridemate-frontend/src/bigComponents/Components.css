@@ -51,7 +51,7 @@ Form{
 
 .hero-section1-written-part{
     width:58%;
-    top:5rem;
+    top:6rem;
     left:2rem;
 }
 
@@ -67,7 +67,7 @@ Form{
 .hero-section1-written-part h1::before{
     content:"abcd";
     color: transparent;
-    height: 8rem;
+    height: 9rem;
     width:7rem;
     left:10px;
     transform: translateY(-80%);

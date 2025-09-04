@@ -7,7 +7,7 @@ import "../allOverCss/commonClassNames.css";
 import "../allOverCss/fonts.css";
 
 /* importing svgs*/
-import headerImg1 from "./headerImg1.jpg";
+import headerImg1 from "../assets/headerImg1.jpg";
 
 function HeroSection1() {
 
