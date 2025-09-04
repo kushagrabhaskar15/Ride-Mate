@@ -13,10 +13,12 @@ import {
 
 function Header() {
   return (
-      <Navbar color="light">
+      <Navbar color="light" className="Header">
+        
         <div className="NavBar-left" style={{ width: "50%" }}>
           <NavbarBrand href="/">RideMate</NavbarBrand>
         </div>
+
         <div
           className="NavBar-right"
           style={{ display: "flex", justifyContent: "space-between" ,gap:"10px"}}

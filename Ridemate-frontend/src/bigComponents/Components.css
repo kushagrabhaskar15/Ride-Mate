@@ -15,7 +15,6 @@ Form{
   transition: 0.25s ease-in-out all;
 }
 
-
 .btnFind:hover {
   background-color: #e65a00;
   transform: translateY(-4%);
@@ -33,14 +32,12 @@ Form{
   transform: translateY(-4%);
 }
 
-.display-flex{
-    display: flex;
-}
-
 .hero-section1-btns{
     justify-content: center;
     width: 80%;
     gap: 3rem;
+    top:2rem;
+    left:2rem;
 }
 
 .hero-section1{
@@ -50,4 +47,36 @@ Form{
     border-radius:20px;
     box-shadow: 2px 2px 6px rgb(141, 135, 135);
     background-color: white;
+}
+
+.hero-section1-written-part{
+    width:58%;
+    top:5rem;
+    left:2rem;
+}
+
+.hero-section1-written-part p{
+    width:90%;
+    text-align: center;
+    background: linear-gradient(to right,blue,red);
+    background-clip: text;
+    color:transparent;
+    font-size: large;
+}
+
+.hero-section1-written-part h1::before{
+    content:"abcd";
+    color: transparent;
+    height: 8rem;
+    width:7rem;
+    left:10px;
+    transform: translateY(-80%);
+    position:absolute;
+    display: block;
+    background: url("../assets/undraw_vintage_q09n.svg") no-repeat center;
+    background-size: contain;
+}
+
+.Header{
+    box-shadow: 1px 2px 7px rgb(190, 190, 190);
 }
