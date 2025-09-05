@@ -1,0 +1,87 @@
+Form{
+    position: relative;
+    margin:auto;
+    top:20vh;
+    width :25rem;
+    border :0.5px solid rgb(72, 72, 72);
+    padding :2rem;
+    box-shadow: 2px 2px 6px rgb(114, 114, 114);
+}
+
+.btnFind{
+  background-color: #FF6B00;
+  color: white;
+  border: none;
+  transition: 0.25s ease-in-out all;
+}
+
+.btnFind:hover {
+  background-color: #e65a00;
+  transform: translateY(-4%);
+}
+
+.btnOffer{
+  background-color: #00C2A0;
+  color: white;
+  border: none;
+  transition: 0.25s ease-in-out all;
+}
+
+.btnOffer:hover{
+  background-color: #00aa88;
+  transform: translateY(-4%);
+}
+
+.hero-section1-btns{
+    justify-content: center;
+    width: 80%;
+    gap: 3rem;
+    top:2rem;
+    left:2rem;
+}
+
+.hero-section1{
+    margin:1.5rem;
+    padding:2.5rem;
+    border:1px solid rgb(82, 82, 82); 
+    border-radius:20px;
+    box-shadow: 2px 2px 6px rgb(141, 135, 135);
+    background-color: white;
+}
+
+.hero-section1-written-part{
+    width:58%;
+    top:6rem;
+    left:2rem;
+}
+
+.hero-section1-written-part p{
+    width:90%;
+    text-align: center;
+    background: linear-gradient(to right,blue,red);
+    background-clip: text;
+    color:transparent;
+    font-size: large;
+}
+
+.hero-section1-written-part h1::before{
+    content:"abcd";
+    color: transparent;
+    height: 9rem;
+    width:7rem;
+    left:10px;
+    transform: translateY(-80%);
+    position:absolute;
+    display: block;
+    background: url("../assets/undraw_vintage_q09n.svg") no-repeat center;
+    background-size: contain;
+}
+
+.Header{
+    box-shadow: 1px 2px 7px rgb(190, 190, 190);
+}
+
+.ask-for-account{
+    color: gray;
+    font-size: 0.9rem;
+}
