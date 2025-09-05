@@ -47,6 +47,7 @@ Form{
     border-radius:20px;
     box-shadow: 2px 2px 6px rgb(141, 135, 135);
     background-color: white;
+    overflow: hidden;
 }
 
 .hero-section1-written-part{
@@ -77,11 +78,77 @@ Form{
     background-size: contain;
 }
 
+.Navbar-right-links{
+    position: relative;
+    top:40%;
+    justify-content: center;
+    gap:3rem;
+    width:20rem;
+}
+
+.links{
+    color: rgb(131, 131, 131);
+    font-size:0.9rem;
+    background-color: #00aa88;
+    align-items: center;
+    justify-content: center;
+}
+
+.links:hover{
+    transition: 0.25s ease-in-out all;
+}
+
+.Navbar-right-links{
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    gap:3rem;
+    width:20rem;
+}
+
+.links::after{
+    content: "";
+    display: block;
+    width:90px;
+    height: 2px;
+    background: linear-gradient(to right,teal,rgb(226, 116, 26));
+}
+
 .Header{
     box-shadow: 1px 2px 7px rgb(190, 190, 190);
+    align-items: center;
 }
 
 .ask-for-account{
     color: gray;
     font-size: 0.9rem;
+}
+
+.hero-section2-features{
+    justify-content: space-evenly;
+}
+
+.hero-section2-individual-feature{
+    width:16vw;
+}
+
+.hero-section2-individual-feature-icon{
+    font-size: 2rem;
+    width:16vw;
+    color:rgb(53, 53, 53);
+}
+
+.hero-section2-individual-feature-heading{
+    font-size: 1rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(42, 42, 42);
+}
+
+.hero-section2-individual-feature-para{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(63, 63, 63);
 }

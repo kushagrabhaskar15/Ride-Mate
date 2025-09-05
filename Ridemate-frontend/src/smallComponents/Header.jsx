@@ -40,11 +40,15 @@ function Header() {
                 gap: "10px",
                 }}
             >
-        
-                <Button color="warning" style={{ color: "white" }}>
-                Find a Ride
-                </Button>
-        
+
+                <div className="Navbar-right-links display-flex">
+                <p className="links">How it works?</p>
+
+                <p className="links">About Us</p>
+
+                <p className="links">Contact</p>
+                </div>
+                
                 <Button
                     color="primary"
                     outline

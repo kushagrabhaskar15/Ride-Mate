@@ -9,13 +9,15 @@ import "../allOverCss/fonts.css";
 
 /* importing svgs*/
 import headerImg1 from "../assets/headerImg1.jpg";
+import HeroSection2 from "./HeroSection2";
 
 function HeroSection1() {
 
     const navigate = useNavigate();
 
     return (
-        <div className="display-flex hero-section1">
+        <div className='hero-section1'>
+        <div className="display-flex">
             
             <div className="hero-section1-written-part position-relative">
             
@@ -39,6 +41,13 @@ function HeroSection1() {
 
             <img src={headerImg1} style={{ width: "30rem" }} />
     
+        </div>
+
+        <hr/>
+        <br/>
+        <br/>
+
+        <HeroSection2/>
         </div>
     );
 }
