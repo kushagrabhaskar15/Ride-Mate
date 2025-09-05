@@ -80,3 +80,8 @@ Form{
 .Header{
     box-shadow: 1px 2px 7px rgb(190, 190, 190);
 }
+
+.ask-for-account{
+    color: gray;
+    font-size: 0.9rem;
+}

@@ -82,7 +82,7 @@ function SignUp() {
         </Button>
 
         <div style={{ display: "flex" }}>
-          <p style={{ color: "gray", fontSize: "0.9rem" }}>have an account?</p>
+          <p className="ask-for-account">have an account?</p>
           <Button
             color="link"
             size="sm"

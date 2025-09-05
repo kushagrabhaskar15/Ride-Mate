@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "reactstrap";
+import { useNavigate } from 'react-router-dom';
 
 /* importing dedicated css files*/
 import "../bigComponents/Components.css";
@@ -11,6 +12,8 @@ import headerImg1 from "../assets/headerImg1.jpg";
 
 function HeroSection1() {
 
+    const navigate = useNavigate();
+
     return (
         <div className="display-flex hero-section1">
             
@@ -21,7 +24,7 @@ function HeroSection1() {
 
                 <div className="position-relative display-flex hero-section1-btns">
 
-                    <Button className="btnFind" size="lg">
+                    <Button className="btnFind" size="lg" onClick={()=>{navigate("/findARide")}}>
                         <i className="fa-solid fa-search"></i>
                         Find a Ride
                     </Button>
